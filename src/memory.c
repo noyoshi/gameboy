@@ -41,6 +41,7 @@ void write_tile(Proc * p, uint16_t address, uint8_t value) {
         p->tileset[tile][i][y] += p->memory[address+1] & bit_index ? 2 : 0;
     }
 
+    // TODO I think here we can update the video as well?
 }
 
 

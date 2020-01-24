@@ -8,6 +8,9 @@ I am planning on splitting up the files logically, with a cartridge file, a proc
 
 I Think most of the stuff for the processor and cartidges can be found in the Full manual referenced below.
 
+### TODO 
+- [ ] Implement writing from the tilemap to the SDL screen
+
 ## Resource references
 
    - [Opcodes](https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
